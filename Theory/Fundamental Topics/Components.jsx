@@ -3,9 +3,13 @@
 function App() {
     return (
         <div className="App">
+
             <Image />
+
             <Line />
+
             <Text />
+
         </div>
     );
 }
