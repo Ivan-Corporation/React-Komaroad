@@ -10,7 +10,7 @@ const post = {
   text: 'Эмм.. а почему Россия подписана как Руссо?',
   author: {
     name: 'Русский',
-    avatarUrl: 'https://img3.goodfon.ru/original/360x480/5/6a/tekstura-flag-rossiya-gerb.jpg',
+    avatarUrl: 'https://pbs.twimg.com/profile_images/467038043204231168/KCR5tGcv.jpeg',
   },
 };
 const post2 = {
@@ -37,8 +37,8 @@ function App() {
     <div className="App">
       <header className="App-header">
       <h1>Страны:</h1> 
-      <h4 className='Clock'><Clock/></h4>
-      <h4 className='Clicker'><Clicker/></h4>
+      {/* <h4 className='Clock'><Clock/></h4>
+      <h4 className='Clicker'><Clicker/></h4> */}
 
             <CountryAndCapital country="Новая Зеландия" capital="Веллингтон" />
             <CountryAndCapital country="Руссо" capital="Москоу" />
@@ -50,18 +50,22 @@ function App() {
       <Post 
         date={post.date}
         text={post.text}
+        
         author={post.author}
       />
+
       <Post 
         date={post2.date}
         text={post2.text}
         author={post2.author}
       />
+
       <Post 
         date={post3.date}
         text={post3.text}
         author={post3.author}
       />
+
       </div>
       </header>
     </div>

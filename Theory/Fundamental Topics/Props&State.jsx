@@ -26,12 +26,19 @@ function CountryAndCapital(country, capital) {
     country = capital;
 }
 
+
+
+
+
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+
 // STATES
-// Как было раньше
+// Как было раньше (можно так писать и сейчас)
 export class Clock extends React.Component {
 
     constructor(props) {
@@ -65,12 +72,16 @@ export class Clock extends React.Component {
         );
     }
 }
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+// Сравнение аналогичного кода
 
 // С hooks (хуками)
 // О хуках позднее
 import React, { useState } from 'react';
 
-function Example() {
+function Clicker() {
     const [count, setCount] = useState(0);
 
     return (
@@ -82,4 +93,29 @@ function Example() {
             </button>
         </div>
     );
+}
+
+// Тот же но через Class state (без хуков)
+// Код с костылями
+
+
+class Clicker extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            count: 0
+        };
+    }
+
+    render() {
+        return (
+            <div>
+                <h3>Кликер</h3>
+                <p>Очки:{this.state.count}</p>
+                <button onClick={() => this.setState({ count: this.state.count + 1 })}>
+                    +Очко
+                </button>
+            </div>
+        );
+    }
 }
