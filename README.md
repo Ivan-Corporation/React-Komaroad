@@ -4,6 +4,5 @@
 
 <img src='https://github.com/Ivan-Corporation/REACT-Komaroad/blob/main/react-roadmap.png' />
 
-<img height="350" width="250" src="https://github.com/Ivan-Corporation/React-Komaroad/blob/main/Practice/Fundamental%20Topics/props-vs-states/props.png" />
-<img height="350" width="250" src="https://github.com/Ivan-Corporation/React-Komaroad/blob/main/Practice/Fundamental%20Topics/props-vs-states/props2.png" />
+<img  src="https://github.com/Ivan-Corporation/React-Komaroad/blob/main/Practice/Fundamental%20Topics/props-vs-states/props2.png" />
 
