@@ -8,4 +8,9 @@
 <p align="center">
 <img  src="https://github.com/Ivan-Corporation/React-Komaroad/blob/main/Practice/Fundamental%20Topics/props-vs-states/props2.png" />
   </p>
+  <h3 align="center">Components Lifecycle</h3>
+<p align="center">
+<img  src="https://github.com/Ivan-Corporation/React-Komaroad/blob/main/Theory/Fundamental%20Topics/lifecycle-components.png" />
+  </p>
+  
 
