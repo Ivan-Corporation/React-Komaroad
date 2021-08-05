@@ -36,9 +36,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1>Страны:</h1> 
-      {/* <h4 className='Clock'><Clock/></h4>
-      <h4 className='Clicker'><Clicker/></h4> */}
+      
+
+      <h4 className='Clock'><Clock/></h4>
+      <h4 className='Clicker'><Clicker/></h4>
 
             <CountryAndCapital country="Новая Зеландия" capital="Веллингтон" />
             <CountryAndCapital country="Руссо" capital="Москоу" />

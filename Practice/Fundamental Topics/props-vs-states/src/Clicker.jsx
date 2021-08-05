@@ -15,6 +15,11 @@ function Clicker() {
 }
 
 
+
+
+// Пример класса
+
+
 // export class Clicker extends React.Component {
 //     constructor(props) {
 //         super(props);
