@@ -1,4 +1,4 @@
-// Conditional Rendering - разделение логики вашего компонента на независимые компоненты
+// Conditional Rendering - разделение логики вашего компонента на независимые компоненты путем установки условий
 // Самые часто используемые методы In My Humble Opinion:
 
 // 1 - if/else
@@ -14,8 +14,8 @@ function LoggedStatus(props) {
     const isLoggedIn = props.isLoggedIn;
     if (isLoggedIn) {
         return <LoggedInUser />;
-    }
-    return <LoggedOutUser />;
+    } else
+        return <LoggedOutUser />;
 }
 ReactDOM.render(
     <LoggedStatus isLoggedIn={false} />,
@@ -28,11 +28,10 @@ ReactDOM.render(
 const russian = true;
 return (
     <div>
-        {russian ? (
-            <h1>Я русский</h1>
-        ) : (
-            <h1>Я не русский... </h1>
-        )}
+        {russian
+            ? (<h1>Я русский</h1>)
+            : (<h1>Я не русский... </h1>
+            )}
     </div>
 );
 
@@ -48,12 +47,11 @@ return (
             <h2>
                 Вы даёте грабителям {money.length}.
             </h2>
-        }else {
+        } {
             <h1>Вы получаете перышко в ребрышко</h1>
         }
     </div>
 );
-const todo = ['Eat', 'Play', 'Read'];
 
 
 

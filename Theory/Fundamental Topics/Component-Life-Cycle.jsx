@@ -1,4 +1,4 @@
-import React from 'react';
+// Методы жизненного цикла
 
 class App extends React.Component {
     constructor(props) {
