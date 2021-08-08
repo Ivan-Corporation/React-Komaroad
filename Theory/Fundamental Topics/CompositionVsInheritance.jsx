@@ -4,27 +4,31 @@
 // - Композиция может быть легче и удобнее
 // - React даёт предпочтение использованию композиций над иерархическим наследованием компонентов
 
-function SplitPane(props) {
+
+// Композиция
+function Composition(props) {
     return (
-        <div className="SplitPane">
-            <div className="SplitPane-left">
-                {props.left}
-            </div>
-            <div className="SplitPane-right">
-                {props.right}
-            </div>
+        <div>
+            <Component>
+                ЗДЕСЬ БУДЕТ ВСЕ ДЕТИ КОМПОНЕНТА КОТОРЫЕ БУДУТ ПЕРЕДАВАТЬСЯ ВМЕСТЕ С НИМ
+                {props.children}
+            </Component>
         </div>
     );
 }
 
-function App() {
-    return (
-        <SplitPane
-            left={
-                <Contacts />
-            }
-            right={
-                <Chat />
-            } />
-    );
+
+
+
+// Наследование
+// Нужно прописывать своеобразный кeducer 
+// Поэтому сразу к черту такое разбрасывание строками кода
+class AnotherChild extends AnotherParent {
+    render() {
+        let text = 'Я другой компонент, переписываю родительский';
+        if (this.props.reducer) {
+            text = this.reducer(text);
+        }
+        return super.render(text);
+    }
 }

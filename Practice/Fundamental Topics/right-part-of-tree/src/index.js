@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import CompLifeCycleAndCondRend from './CompLifeCycleAndCondRend.jsx';
 import ListsAndKeys from './ListsAndKeys';
+import CountButtonComponent from './Basic Hooks/UseState';
 
 // Смерть...
 // setTimeout(() => {
@@ -18,9 +19,9 @@ ReactDOM.render(
 
     {/* <CompLifeCycleAndCondRend /> */}
 
-    <ListsAndKeys numbers={numbers} />
+    {/* <ListsAndKeys numbers={numbers} /> */}
     
-
+    <CountButtonComponent />
 
   </React.StrictMode>,
   document.getElementById('root')
