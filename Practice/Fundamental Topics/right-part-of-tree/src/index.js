@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import CompLifeCycleAndCondRend from './CompLifeCycleAndCondRend.jsx';
 import ListsAndKeys from './ListsAndKeys';
-import CountButtonComponent from './Basic Hooks/UseState';
+import UseStateHook from './Basic Hooks/UseStateHook';
+import UseEffectHook from './Basic Hooks/UseEffectHook';
 
 // Смерть...
 // setTimeout(() => {
@@ -21,7 +22,9 @@ ReactDOM.render(
 
     {/* <ListsAndKeys numbers={numbers} /> */}
     
-    <CountButtonComponent />
+    {/* <UseStateHook /> */}
+
+    <UseEffectHook />
 
   </React.StrictMode>,
   document.getElementById('root')

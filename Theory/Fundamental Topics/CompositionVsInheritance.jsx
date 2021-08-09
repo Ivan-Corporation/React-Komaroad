@@ -21,9 +21,9 @@ function Composition(props) {
 
 
 // Наследование
-// Нужно прописывать своеобразный кeducer 
+// Нужно прописывать своеобразный reducer 
 // Поэтому сразу к черту такое разбрасывание строками кода
-class AnotherChild extends AnotherParent {
+class Child extends Parent {
     render() {
         let text = 'Я другой компонент, переписываю родительский';
         if (this.props.reducer) {
