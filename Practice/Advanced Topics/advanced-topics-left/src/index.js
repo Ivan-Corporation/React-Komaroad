@@ -1,20 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import CustomHook from './CustomHook';
-import reportWebVitals from './reportWebVitals';
+import CustomHook from './Hooks/CustomHook';
+import UseContextHook from './Hooks/UseContextHook';
+import UseCallback from './Hooks/UseCallback';
+import MemoComponent from './Hooks/UseMemo';
+import UseRef from './Hooks/UseRef';
+import UseReducer from './Hooks/UseReducer';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
 
-    <CustomHook />
+    {/* Hooks */}
+
+    {/* <CustomHook /> */}
+    {/* <UseContextHook /> */}
+    {/* <UseCallback/> */}
+    {/* <MemoComponent/> */}
+    {/* <UseRef/> */}
+    {/* <UseReducer/> */}
+
+
+    
 
     
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
