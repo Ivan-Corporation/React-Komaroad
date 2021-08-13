@@ -7,6 +7,9 @@ import UseCallback from './Hooks/UseCallback';
 import MemoComponent from './Hooks/UseMemo';
 import UseRef from './Hooks/UseRef';
 import UseReducer from './Hooks/UseReducer';
+import Ref from './Ref';
+import RenderProps from './RenderProps';
+
 
 
 
@@ -15,7 +18,7 @@ ReactDOM.render(
 
     {/* Hooks */}
 
-    {/* <CustomHook /> */}
+    <CustomHook />
     {/* <UseContextHook /> */}
     {/* <UseCallback/> */}
     {/* <MemoComponent/> */}
@@ -23,9 +26,14 @@ ReactDOM.render(
     {/* <UseReducer/> */}
 
 
-    
+    {/* <Ref/> */}
 
-    
+    {/* <RenderProps/> */}
+
+
+
+
+
   </React.StrictMode>,
   document.getElementById('root')
 );
