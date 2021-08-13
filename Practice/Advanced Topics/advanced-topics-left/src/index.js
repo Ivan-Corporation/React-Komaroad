@@ -9,6 +9,7 @@ import UseRef from './Hooks/UseRef';
 import UseReducer from './Hooks/UseReducer';
 import Ref from './Ref';
 import RenderProps from './RenderProps';
+import HOC from './HOC';
 
 
 
@@ -18,7 +19,7 @@ ReactDOM.render(
 
     {/* Hooks */}
 
-    <CustomHook />
+    {/* <CustomHook /> */}
     {/* <UseContextHook /> */}
     {/* <UseCallback/> */}
     {/* <MemoComponent/> */}
@@ -30,8 +31,8 @@ ReactDOM.render(
 
     {/* <RenderProps/> */}
 
-
-
+    {/* <HOC /> */}
+    
 
 
   </React.StrictMode>,

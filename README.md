@@ -16,5 +16,13 @@
 <p align="center">
 <img  src="https://github.com/Ivan-Corporation/React-Komaroad/blob/main/Theory/Fundamental%20Topics/lifecycle-components.png" />
   </p>
+
+  <br>
+<br>
+  <h2 align="center">Context 12</h2>
+<p align="center">
+<img  src="/Theory/Advanced Topics/context1.jpg" />
+<img  src="/Theory/Advanced Topics/context2.jpg" />
+  </p>
   
 
