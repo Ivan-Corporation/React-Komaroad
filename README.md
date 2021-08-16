@@ -2,7 +2,7 @@
 
 <h2 align="center">Изучение React в 2021-2022</h2>
 
-<img src='https://github.com/Ivan-Corporation/REACT-Komaroad/blob/main/react-roadmap.png' />
+<img src='https://github.com/Ivan-Corporation/React-Komaroad/blob/main/react-roadmap.png' />
 <br>
 <br>
 <h2 align="center">Props 4.1</h2>
