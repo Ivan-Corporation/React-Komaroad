@@ -8,6 +8,7 @@
 <h2 align="center">Props 4.1</h2>
 <p align="center">
 <img  src="https://github.com/Ivan-Corporation/React-Komaroad/blob/main/Practice/Fundamental%20Topics/props-vs-states/props2.png" />
+  Оригинал - https://roadmap.sh/roadmaps
   </p>
   
   <br>
