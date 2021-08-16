@@ -12,6 +12,7 @@ function Ref(props) {
         <input
           type="text"
           ref={textInput} />
+          
         <input
           type="button"
           value="Фокус на поле для ввода текста"

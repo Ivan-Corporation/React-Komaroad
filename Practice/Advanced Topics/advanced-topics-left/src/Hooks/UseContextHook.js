@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Context } from './UseContext/Context';
 import FirstComponent from './UseContext/FirstComponent';
-import SecondContext from './UseContext/SecondComponent';
+import SecondComponent from './UseContext/SecondComponent';
 
 
 export default function UseContextHook() {
@@ -10,7 +10,7 @@ export default function UseContextHook() {
     <div className='App-header'>
     <Context.Provider value={[context, setContext]}>
       <FirstComponent />
-      <SecondContext />
+      <SecondComponent />
     </Context.Provider>
     </div>
   );

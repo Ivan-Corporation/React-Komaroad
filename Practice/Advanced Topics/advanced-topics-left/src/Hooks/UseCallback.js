@@ -12,12 +12,14 @@ export default function UseCallback() {
     );
   };
 
+
   const updateTwo = useCallback(() => {
     console.log(
       "Я мемоизирован!"
    );
   }, [counter]);
 
+  
   return (
     <div className="App-header">
       <button onClick={() => setCounter(counter + 1)}>One</button>

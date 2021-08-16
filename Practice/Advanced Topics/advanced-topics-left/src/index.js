@@ -4,12 +4,12 @@ import './index.css';
 import CustomHook from './Hooks/CustomHook';
 import UseContextHook from './Hooks/UseContextHook';
 import UseCallback from './Hooks/UseCallback';
-import MemoComponent from './Hooks/UseMemo';
+import UseMemo from './Hooks/UseMemo';
 import UseRef from './Hooks/UseRef';
 import UseReducer from './Hooks/UseReducer';
 import Ref from './Ref';
 import RenderProps from './RenderProps';
-import HOC from './HOC';
+
 
 
 
@@ -20,9 +20,10 @@ ReactDOM.render(
     {/* Hooks */}
 
     {/* <CustomHook /> */}
+
     {/* <UseContextHook /> */}
     {/* <UseCallback/> */}
-    {/* <MemoComponent/> */}
+    {/* <UseMemo/> */}
     {/* <UseRef/> */}
     {/* <UseReducer/> */}
 
@@ -31,7 +32,7 @@ ReactDOM.render(
 
     {/* <RenderProps/> */}
 
-    {/* <HOC /> */}
+
     
 
 

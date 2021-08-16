@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-
+// Якобы отдельный JSON
 const products = [
     {
       "availableSizes": ["S", "XS"],
@@ -159,7 +159,7 @@ const products = [
       "title": "On The Streets Black T-Shirt"
     }
   ]
-  
+  /////////////////////////////////////////////////////////////
   
   const ProductCard = props => {
     return (
@@ -200,7 +200,7 @@ const products = [
       <div >
         <div>
           <div>
-            <h2>Products</h2>
+            <h2>Товары</h2>
           </div>
         </div>
         <div>
@@ -210,7 +210,7 @@ const products = [
     )
   }
   
-  
+  // Сам Компонент высшего порядка здесь withSearch
   const withSearch = WrappedComponent => {
     return class extends React.Component {
       state = {
@@ -229,7 +229,7 @@ const products = [
                 onChange={this.handleSearch}
                 value={searchTerm}
                 type="text"
-                placeholder="Search"
+                placeholder="Поиск"
               />
             </div>
             <WrappedComponent searchTerm={searchTerm} />
@@ -239,7 +239,7 @@ const products = [
     };
   };
 
-  // Сам Компонент высшего порядка
+  
   const HOC = withSearch(ProductsList);
   
   export default HOC

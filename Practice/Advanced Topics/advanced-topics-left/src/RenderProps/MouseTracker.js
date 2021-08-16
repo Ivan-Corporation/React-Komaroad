@@ -8,7 +8,7 @@ import Cat from './Cat';
       return (
         <div>
           <h1>Убеги от кота!</h1>
-          <Mouse  render={mouse => ( 
+          <Mouse render={mouse => ( 
             <Cat mouse={mouse} />
           )}/>
         </div>

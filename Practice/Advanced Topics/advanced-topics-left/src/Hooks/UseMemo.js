@@ -4,7 +4,7 @@ const sum = n => {
 	return n + n
  };
 
-const MemoComponent = () => {
+const UseMemo = () => {
     const [num, setNum] = useState(1);
     const [isGreen, setIsGreen] = useState(true);
     const result = useMemo(() => sum(num), [num]);
@@ -23,4 +23,4 @@ const MemoComponent = () => {
       </div>
     );
   };
-export default MemoComponent;
+export default UseMemo;
