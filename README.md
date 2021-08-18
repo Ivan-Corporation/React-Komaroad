@@ -25,5 +25,18 @@
 <img  src="/Theory/Advanced Topics/context1.jpg" />
 <img  src="/Theory/Advanced Topics/context2.jpg" />
   </p>
+  <br>
+<br>
+  <h2 align="center">Code Splitting 14</h2>
+<p align="center">
+<img  src="https://github.com/Ivan-Corporation/React-Komaroad/blob/main/Theory/Advanced%20Topics/chunks.jpg" />
+  </p>
+  <br>
+<br>
+  <h2 align="center">Fiber 17</h2>
+<p align="center">
+<img  src="https://github.com/Ivan-Corporation/React-Komaroad/blob/main/Theory/Advanced%20Topics/Fiber.png" />
+<img  src="https://github.com/Ivan-Corporation/React-Komaroad/blob/main/Theory/Advanced%20Topics/fiberRelations.jpeg" />
+  </p>
   
 

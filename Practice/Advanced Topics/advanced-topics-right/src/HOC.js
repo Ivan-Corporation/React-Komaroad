@@ -204,7 +204,7 @@ const products = [
           </div>
         </div>
         <div>
-          {filteredProducts.map((product) => <ProductCard key={product.sku} {...product} />)}
+          {filteredProducts.map((product) => <ProductCard key={product.id} {...product} />)}
         </div>
       </div>
     )

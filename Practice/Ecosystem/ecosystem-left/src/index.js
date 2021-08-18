@@ -17,7 +17,7 @@ ReactDOM.render(
   {/* <ReachRouter/> */}
    
 
-  <SSR/>
+  {/* <SSR&NextJS/> */}
 
 
   </React.StrictMode>,
