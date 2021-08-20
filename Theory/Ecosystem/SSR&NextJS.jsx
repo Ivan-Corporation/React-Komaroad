@@ -24,3 +24,4 @@
 // Если же такой вариант подходит намного больше чем рендер на странице, то на такой счёт уже существует Next.js фреймворк
 // поверх React, с ним разработка становится легче и его мы рассмотрим
 
+//* npx create-next-app koma-next --use-npm --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"
