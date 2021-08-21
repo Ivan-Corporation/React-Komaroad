@@ -4,6 +4,9 @@ import './App.css';
 import RouterDOM from './RouterDOM';
 import RouterDOM2 from './RouterDOM2';
 import ReachRouter from './ReachRouter';
+import ApolloIndex from './ApolloIndex';
+import Axios from './Axios';
+import Unfetch from './Unfetch';
 
 
 
@@ -16,8 +19,17 @@ ReactDOM.render(
 
   {/* <ReachRouter/> */}
    
+  
+  {/* <ApolloIndex/> */}
+
+
+  {/* <Axios/> */}
+
+  {/* <Unfetch/> */}
+
 
   
+
 
 
   </React.StrictMode>,
