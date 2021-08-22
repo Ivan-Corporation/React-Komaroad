@@ -5,7 +5,7 @@ import './App.css';
 import ajax from 'superagent';
 
 
-export default class Unfetch extends React.Component {
+export default class Superagent extends React.Component {
     constructor(props) {
         super(props);
 

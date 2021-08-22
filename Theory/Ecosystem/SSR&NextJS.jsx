@@ -25,3 +25,7 @@
 // поверх React, с ним разработка становится легче и его мы рассмотрим
 
 //* npx create-next-app koma-next --use-npm --example "https://github.com/vercel/next-learn-starter/tree/master/learn-starter"
+
+
+// Можете кста ознакомится с моим Next.JS приложением где происходит работа с API
+// https://github.com/Ivan-Corporation/React-Next.js_API-auth

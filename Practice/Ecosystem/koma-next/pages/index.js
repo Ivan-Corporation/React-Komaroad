@@ -55,6 +55,17 @@ export default function Home() {
               </p>
             </a>
           </Link>
+
+          <Link href="/posts/test">
+            <a className="card"
+            >
+              <h3>Тест &rarr;</h3>
+              <p>
+                Тест
+              </p>
+            </a>
+          </Link>
+
         </div>
       </main>
 
@@ -69,6 +80,10 @@ export default function Home() {
         </a>
 
       </footer>
+
+
+
+
 
       <style jsx>{`
         .container {
