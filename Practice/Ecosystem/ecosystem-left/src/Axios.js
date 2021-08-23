@@ -28,7 +28,7 @@ return (
         inc: 'name,email,picture'
       }
     });
-    // Парсим резульатты.
+    // Парсим результаты.
     userData = userData.data.results[0];
     // Обновляем стейт и ререндерим наш компонент.
     const name = `${userData.name.first} ${userData.name.last}`;

@@ -13,7 +13,7 @@ const userDetails = (
           
           src={avatar}
           alt={name}
-          style={{ width: "100px", height: "100px" }}
+          style={{ width: "150px", height: "150px" }}
         />
         <h4 >{name}</h4>
         <span >{email}</span>

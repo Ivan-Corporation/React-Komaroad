@@ -37,7 +37,7 @@ export default function ApolloIndex() {
 // Определяем запрос
 const EXCHANGE_RATES = gql`
   query GetExchangeRates {
-    rates(currency: "RUB") { 
+    rates(currency: "EURO") { 
       currency
       rate
     }

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import request from 'superagent';
-import churchill from './churchill.jpg';
 import './App.css';
 import ajax from 'superagent';
 
