@@ -26,18 +26,9 @@ ReactDOM.render(
 
   {/* <Axios/> */}
 
-  <Superagent/>
+  {/* <Superagent/> */}
 
   {/* <UseHTTP/> */}
-
-
-  
-
-
-
-
-  
-
 
 
   </React.StrictMode>,

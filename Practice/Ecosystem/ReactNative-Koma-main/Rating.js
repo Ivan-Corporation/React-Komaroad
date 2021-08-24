@@ -23,46 +23,46 @@ export default function Rating(props) {
                     <Icon type='FontAwesome' name='star' style={styles.starStyle} />
                 </TouchableWithoutFeedback>
             ) : (
-                    <TouchableWithoutFeedback onPress={() => setRating(1)}>
-                        <Icon type='FontAwesome' name='star-o' style={styles.starStyle} />
-                    </TouchableWithoutFeedback>
-                )}
+                <TouchableWithoutFeedback onPress={() => setRating(1)}>
+                    <Icon type='FontAwesome' name='star-o' style={styles.starStyle} />
+                </TouchableWithoutFeedback>
+            )}
             {rating >= 2 ? (
                 <TouchableWithoutFeedback onPress={() => setRating(2)}>
                     <Icon type='FontAwesome' name='star' style={styles.starStyle} />
                 </TouchableWithoutFeedback>
             ) : (
-                    <TouchableWithoutFeedback onPress={() => setRating(2)}>
-                        <Icon type='FontAwesome' name='star-o' style={styles.starStyle} />
-                    </TouchableWithoutFeedback>
-                )}
+                <TouchableWithoutFeedback onPress={() => setRating(2)}>
+                    <Icon type='FontAwesome' name='star-o' style={styles.starStyle} />
+                </TouchableWithoutFeedback>
+            )}
             {rating >= 3 ? (
                 <TouchableWithoutFeedback onPress={() => setRating(3)}>
                     <Icon type='FontAwesome' name='star' style={styles.starStyle} />
                 </TouchableWithoutFeedback>
             ) : (
-                    <TouchableWithoutFeedback onPress={() => setRating(3)}>
-                        <Icon type='FontAwesome' name='star-o' style={styles.starStyle} />
-                    </TouchableWithoutFeedback>
-                )}
+                <TouchableWithoutFeedback onPress={() => setRating(3)}>
+                    <Icon type='FontAwesome' name='star-o' style={styles.starStyle} />
+                </TouchableWithoutFeedback>
+            )}
             {rating >= 4 ? (
                 <TouchableWithoutFeedback onPress={() => setRating(4)}>
                     <Icon type='FontAwesome' name='star' style={styles.starStyle} />
                 </TouchableWithoutFeedback>
             ) : (
-                    <TouchableWithoutFeedback onPress={() => setRating(4)}>
-                        <Icon type='FontAwesome' name='star-o' style={styles.starStyle} />
-                    </TouchableWithoutFeedback>
-                )}
+                <TouchableWithoutFeedback onPress={() => setRating(4)}>
+                    <Icon type='FontAwesome' name='star-o' style={styles.starStyle} />
+                </TouchableWithoutFeedback>
+            )}
             {rating >= 5 ? (
                 <TouchableWithoutFeedback onPress={() => setRating(5)}>
                     <Icon type='FontAwesome' name='star' style={styles.starStyle} />
                 </TouchableWithoutFeedback>
             ) : (
-                    <TouchableWithoutFeedback onPress={() => setRating(5)}>
-                        <Icon type='FontAwesome' name='star-o' style={styles.starStyle} />
-                    </TouchableWithoutFeedback>
-                )}
+                <TouchableWithoutFeedback onPress={() => setRating(5)}>
+                    <Icon type='FontAwesome' name='star-o' style={styles.starStyle} />
+                </TouchableWithoutFeedback>
+            )}
 
         </Row>
     );

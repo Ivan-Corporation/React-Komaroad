@@ -8,7 +8,3 @@
 //* Request/response interceptors
 //* React Native support
 //* Aborts/Cancels pending http requests when a component unmounts
-//* Built in caching
-//* Persistent caching support
-//* Suspense(experimental) support
-//* Retry functionality

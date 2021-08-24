@@ -4,7 +4,8 @@
 // Вот парочка примеров...
 //* https://github.com/Ivan-Corporation/KomaHuman-FirebaseQuiz
 //* https://github.com/Ivan-Corporation/KomaQuiz-AndroidGame - Эта даже есть в Плей Маркете
-//* Вот кому интересно) https://play.google.com/store/apps/details?id=komar.corporation.Quiz
+//* Вот кому интересно) https://play.google.com/store/apps/details?id=komar.corporation.Quiz 
+//? KomaQuiz
 //// Скачиваний 0 кста)
 
 // Обратно к React Native...

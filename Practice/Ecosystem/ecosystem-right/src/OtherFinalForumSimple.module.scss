@@ -1,0 +1,94 @@
+.wrapper {
+    height: 100%;
+    overflow: scroll;
+  }
+  .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .wrapper a {
+    display: block;
+    text-align: center;
+    color: #222;
+  }
+  
+  .form {
+    max-width: 480px;
+    margin: 10px auto;
+    border: none;
+    padding: 20px;
+    border-radius: 3px;
+  
+    & div {
+      display: flex;
+      flex-flow: row nowrap;
+      line-height: 2em;
+      margin: 5px;
+      & label {
+        color: #333;
+        width: 110px;
+        font-size: 1em;
+        line-height: 32px;
+      }
+      & input,
+      & select,
+      & textarea {
+        flex: 1;
+        padding: 3px 5px;
+        font-size: 1em;
+        margin-left: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+      & input[type="checkbox"] {
+        margin-top: 7px;
+      }
+      & div {
+        margin-left: 16px;
+        & label {
+          display: block;
+          & input {
+            margin-right: 3px;
+          }
+        }
+      }
+    }
+    .buttons {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 15px;
+    }
+    & button {
+      margin: 0 10px;
+      padding: 4px 8px;
+    }
+    & pre {
+      border: 1px solid #ccc;
+      background: rgba(0, 0, 0, 0.1);
+      box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+    }
+    .labels {
+      display: flex;
+      flex-direction: column;
+  
+      & label {
+        width: 150px;
+        display: flex;
+        align-items: center;
+  
+        & input {
+          margin-top: 2px;
+          margin-left: 0px;
+          flex: initial;
+        }
+      }
+    }
+  }
+  
