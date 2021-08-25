@@ -56,7 +56,6 @@ ReactDOM.render(
 
   {/* <MaterialUI/> */}
 
-  <StyledComponents/>
 
   </React.StrictMode>,
   document.getElementById('root')
