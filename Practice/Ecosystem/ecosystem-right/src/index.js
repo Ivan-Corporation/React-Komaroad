@@ -8,7 +8,18 @@ import Formik from './Formik';
 import FinalForm from './FinalForm';
 import Jest from './Jest';
 
+import store from './app/store'
+import { Provider } from 'react-redux'
+import Redux from './Redux';
+import MobX from './MobX';
+import Recoil from './Recoil';
+import {
+  RecoilRoot,
+} from 'recoil';
 
+import { ChakraProvider } from "@chakra-ui/react"
+import ChakraUI from './styling/ChakraUI';
+import MaterialUI from './styling/MaterialUI';
 
 
 ReactDOM.render(
@@ -21,9 +32,31 @@ ReactDOM.render(
   {/* <FinalForm/> */}
 
 
-  <Jest/>
+
+  {/* <Jest/> */}
 
   {/* <App/> */}
+
+
+
+  {/* <Provider store={store}>
+  <Redux/>
+  </Provider> */}
+
+  {/* <MobX /> */}
+
+  {/* <RecoilRoot>
+  <Recoil/>
+  </RecoilRoot> */}
+
+
+  {/* <ChakraProvider>
+  <ChakraUI/>
+  </ChakraProvider> */}
+
+  {/* <MaterialUI/> */}
+
+  <StyledComponents/>
 
   </React.StrictMode>,
   document.getElementById('root')

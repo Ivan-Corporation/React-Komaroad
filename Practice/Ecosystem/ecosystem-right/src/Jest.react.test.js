@@ -4,7 +4,7 @@ import Jest from './Jest';
 
 test('Link changes the class when hovered', () => {
   const component = renderer.create(
-    <Jest page="http://www.facebook.com">Facebook</Jest>,
+    <Jest page="http://www.github.com">Facebook</Jest>,
   );
   let tree = component.toJSON();
   expect(tree).toMatchSnapshot();
