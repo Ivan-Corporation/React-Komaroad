@@ -8,7 +8,8 @@
 
 
 //? Material UI
-// npm install @material-ui/core
+// npm install @material-ui/core @material-ui/icons
+
 
 //* API
 // https://material-ui.com/ru/api/accordion/
@@ -28,7 +29,7 @@
 
 
 //? Styled Components
-// npm install --save styled-components
+// npm install styled-components
 
 // Пример в ecosystem-left/use-http
 

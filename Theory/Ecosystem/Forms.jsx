@@ -12,8 +12,9 @@
 
 //? Formik
 // Самая легкая в плане веса
+// Довольно длинный код
 
-// npm install formik --save
+// npm install formik 
 
 // - Getting values in and out of form state
 // - Validation and error messages
@@ -29,7 +30,7 @@
 // Самая проверенная временем
 
 
-// npm install --save final-form react-final-form
+// npm install final-form react-final-form
 
 
 // Компонент Form не заменяет html тег form

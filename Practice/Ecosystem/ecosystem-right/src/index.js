@@ -11,7 +11,9 @@ import Jest from './Jest';
 import store from './app/store'
 import { Provider } from 'react-redux'
 import Redux from './Redux';
+
 import MobX from './MobX';
+
 import Recoil from './Recoil';
 import {
   RecoilRoot,
@@ -19,6 +21,7 @@ import {
 
 import { ChakraProvider } from "@chakra-ui/react"
 import ChakraUI from './styling/ChakraUI';
+
 import MaterialUI from './styling/MaterialUI';
 
 

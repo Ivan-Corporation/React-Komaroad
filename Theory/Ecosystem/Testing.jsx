@@ -1,11 +1,8 @@
 //? Jest - Facebook
 // npm i --dev react-test-renderer
-// npm install --save-dev jest
 // исполнитель тестов на JavaScript, который позволяет взаимодействовать с DOM через jsdom. Несмотря на то,
 //  что jsdom только приблизительно реализует работу браузера,
 //  в большинстве случаев этого достаточно для тестирования React-компонентов.
-
-
 
 
 //? React Testing Library

@@ -144,7 +144,7 @@ export default (props) => {
             </div>
             <div>
               <label>Исповедь</label>
-              <Field name="notes" component="textarea" placeholder="Notes" />
+              <Field name="notes" component="textarea" placeholder="Записи" />
             </div>
             <div className={styles.buttons}>
               <button type="submit" disabled={submitting || pristine}>

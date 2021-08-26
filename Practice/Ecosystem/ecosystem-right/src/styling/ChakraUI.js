@@ -28,15 +28,7 @@ function ChakraUI() {
           Кнопкинс
         </Button>
       
-        <Box
-          role="group"
-        >
-          <Box
-            _hover={{ fontWeight: 'semibold' }}
-            _groupHover={{ color: 'tomato' }}
-          >
-          </Box>
-        </Box>
+       
 
 
         <Text
@@ -51,7 +43,7 @@ function ChakraUI() {
 
         <SimpleGrid
           bg="gray.50"
-          columns={{ sm: 2, md: 4 }}
+          columns={{ sm: 2, md: 5 }}
           spacing="8"
           p="10"
           textAlign="center"

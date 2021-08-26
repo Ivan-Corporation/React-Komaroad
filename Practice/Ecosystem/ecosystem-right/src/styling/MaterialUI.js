@@ -9,7 +9,9 @@ import Link from '@material-ui/core/Link';
 import Paper from '@material-ui/core/Paper';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
+
 import ExploreIcon from '@material-ui/icons/Explore';
+
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -72,7 +74,7 @@ export default function MaterialUI() {
           <Avatar className={classes.avatar}>
             <ExploreIcon/>
           </Avatar>
-          <Typography component="h1" variant="h5">
+          <Typography component="h1" variant="h4">
             Войти
           </Typography>
           <form className={classes.form} noValidate>
@@ -109,7 +111,7 @@ export default function MaterialUI() {
               color="primary"
               className={classes.submit}
             >
-              Регистрация
+              Войти
             </Button>
             <Grid container>
               <Grid item xs>
