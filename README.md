@@ -31,6 +31,7 @@
 <p align="center">
 <img  src="https://github.com/Ivan-Corporation/React-Komaroad/blob/main/Theory/Advanced%20Topics/chunks.jpg" />
   </p>
+  
   <br>
 <br>
   <h2 align="center">Fiber 17</h2>
@@ -38,5 +39,15 @@
 <img  src="https://github.com/Ivan-Corporation/React-Komaroad/blob/main/Theory/Advanced%20Topics/Fiber.png" />
 <img  src="https://github.com/Ivan-Corporation/React-Komaroad/blob/main/Theory/Advanced%20Topics/fiberRelations.jpeg" />
   </p>
-  
+  <br>
+<br>
+
+  <h2 align="center">SSG</h2>
+<p align="center">
+<img  src="https://github.com/Ivan-Corporation/React-Komaroad/blob/main/Theory/Ecosystem/SSG.png" />
+  </p>
+  <br>
+<br>
+
+
 
