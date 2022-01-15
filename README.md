@@ -1,7 +1,7 @@
 <h1 align="center">REACT-Komaroad</h1>
 
 <h2 align="center">Изучение React в 2021-2022</h2>
-
+https://www.youtube.com/playlist?list=PLNqXCU1DLgu0XUDWPBH4KT4jRGwHYha9_
 <img src='https://github.com/Ivan-Corporation/React-Komaroad/blob/main/react-roadmap.png' />
 Оригинал - https://roadmap.sh/roadmaps
 <br>
